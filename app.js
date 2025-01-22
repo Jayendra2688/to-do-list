@@ -11,7 +11,7 @@ app.set('view engine', 'ejs');
 const config = require("./config.json");
 const mongopwd = config.PASSWORD;
 mongoose.set('strictQuery', false);
-mongoose.connect("mongodb+srv://chinmaybhalodia:"+mongopwd+"@cluster0.kmd0l5u.mongodb.net/todoDB",()=>{
+mongoose.connect("mongodb+srv://jay2688:"+mongopwd+"@cluster0.kmd0l5u.mongodb.net/todoDB",()=>{
     console.log("Database Connected.");
 });
 
